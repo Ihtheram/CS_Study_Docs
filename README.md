@@ -1,1 +1,1 @@
-# CS_Study_Docs
+# Computer Science Study Documents
