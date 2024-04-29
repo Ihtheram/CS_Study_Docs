@@ -22,9 +22,9 @@ Machine Learning is a subset of artificial intelligence that focuses on developi
   - Reinforcement Learning (Reward-based learning)
   - #### What are the steps involved in Machine Learning?
     The steps involved in Machine Learning typically include:
-     1. Model Evaluation/ Decision Process: The algorithm will attempt to predict a value or classify a new example based off previous information
-     2. Model Monitoring/ Error Function: A way to measure how wrong the model is. Can vary based off the problem (classification/ predicition). The entire goal is to minimize error since that raises accuracy.
-     3. Model Updating / Optimization Process: A way for us to update the model based off the current weights held and the error function. The goal is to update the weights, which control how important specific input features are, and use that new model to hopefully achieve a lower error on the training and test sets. This is an interative approach and will repeat until a desired threshold for accuracy is acheived
+     1. Decision Process: The algorithm will attempt to predict a value or classify a new example based off previous information
+     2. Error Function: A way to measure how wrong the model is. Can vary based off the problem (classification/ predicition). The entire goal is to minimize error since that raises accuracy.
+     3. Optimization Process: A way for us to update the model based off the current weights held and the error function. The goal is to update the weights, which control how important specific input features are, and use that new model to hopefully achieve a lower error on the training and test sets. This is an iterative approach and will repeat until a desired threshold for accuracy is acheived
 
 
   - #### What types of Machine Learning are there?
