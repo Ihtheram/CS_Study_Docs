@@ -20,12 +20,12 @@ Machine Learning is a subset of artificial intelligence that focuses on developi
   - Supervised Learning (Regression, Classification)
   - Unsupervised Learning (Clustering, Dimensionality Reduction)
   - Reinforcement Learning (Reward-based learning)
+
   - #### What are the steps involved in Machine Learning?
     The steps involved in Machine Learning typically include:
     1. Decision Process: The algorithm will attempt to predict a value or classify a new example based off previous information
     2. Error Function: A way to measure how wrong the model is. Can vary based off the problem (classification/ predicition). The entire goal is to minimize error since that raises accuracy.
     3. Optimization Process: A way for us to update the model based off the current weights held and the error function. The goal is to update the weights, which control how important specific input features are, and use that new model to hopefully achieve a lower error on the training and test sets. This is an iterative approach and will repeat until a desired threshold for accuracy is acheived
-
 
   - #### What types of Machine Learning are there?
     There are three main types of Machine Learning:
@@ -33,14 +33,15 @@ Machine Learning is a subset of artificial intelligence that focuses on developi
     2. Unsupervised Learning: In unsupervised learning, the model is trained on unlabeled data, where the input features do not have corresponding target labels. The model learns to identify patterns and relationships in the data without explicit guidance. Examples of unsupervised learning tasks include clustering and dimensionality reduction.
     3. Semi-supervised Learning: The combination or middle ground between Supervised and Unsupervised. This often starts with using the smaller, labelled dataset to guide initial model setup and then tests that model against the unlabelled dataset to uncover new connections or information about the data. Generally used as a cost-effective alternative if it costs too much to label data. Examples of semi-supervised learning tasks include image recognition and speech recognition.
     4. Reinforcement Learning: In reinforcement learning, the model learns through trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties. The model learns to take actions that maximize cumulative rewards over time. Examples of reinforcement learning tasks include game playing and robotic control.
+
   - #### What are some Machine Learning Algorithms?
     There are many machine learning algorithms, each designed to solve specific types of problems. Some common machine learning algorithms include:
-    - Linear regression: This algorithm is used to predict numerical values, based on a linear relationship between different values. For example, the technique could be used to predict house prices based on historical data for the area.
-    - Logistic regression: This supervised learning algorithm makes predictions for categorical response variables, such as “yes/no” answers to questions. It can be used for applications such as classifying spam and quality control on a production line.
-    - Clustering: Using unsupervised learning, clustering algorithms can identify patterns in data so that it can be grouped. Computers can help data scientists by identifying differences between data items that humans have overlooked.
-    - Decision trees: Decision trees can be used for both predicting numerical values (regression) and classifying data into categories. Decision trees use a branching sequence of linked decisions that can be represented with a tree diagram. One of the advantages of decision trees is that they are easy to validate and audit, unlike the black box of the neural network.
-    - Random forests: In a random forest, the machine learning algorithm predicts a value or category by combining the results from a number of decision trees.
-    - Neural networks: Neural networks  simulate the way the human brain works, with a huge number of linked processing nodes. Neural networks are good at recognizing patterns and play an important role in applications including natural language translation, image recognition, speech recognition, and image creation.
+    - **Linear regression**: *Predicts numerical values*, based on a linear relationship between different values. For example, the technique could be used to predict house prices based on historical data for the area.
+    - **Logistic regression**: Supervised learning algorithm, makes predictions for *categorical response variables*, such as “yes/no” answers to questions. It can be used for applications such as classifying spam and quality control on a production line.
+    - **Clustering**: Using unsupervised learning, *identifies patterns in data* so that it can be grouped. Helps identifying differences between data items.
+    - **Decision trees**: Used for both *predicting numerical values (regression) and classifying data into categories*. Decision trees use a branching sequence of linked decisions that can be represented with a tree diagram. This algorithm is easy to validate and audit, unlike the black box of the neural network.
+    - **Random forests**: *Combine the results from a number of decision trees* and predicts a value or category.
+    - **Neural networks**: Simulate the way the human brain works, with a *huge number of linked processing nodes*, are good at recognizing patterns and play an important role in applications such as natural language translation, image recognition, speech recognition, and image creation.
     	- Neural network Uses a series of node called neurons that perform some calculation based off the input features and the interal weights of the node (normally this means we'll have a weight for each input feature and we'll multiply the weight by the feature itself). This will allow the network to make some decision (prediction or a classification) and then the accuracy of this is usually checked against the label of the data and a process call back propigation is used to update the weights and make the model more accurate.
 
 ### What is an LLM?
@@ -65,6 +66,7 @@ Hallucinations are errors or inaccuracies in the output of AI models, where the 
      - Prompt Engineering: Designing clear and specific prompts to guide the behavior of the AI model.
      - Model Evaluation: Testing the model on diverse datasets and scenarios to identify and correct hallucinations.
      - Post-Processing: Applying filters or constraints to the generated output to remove hallucinations or errors.
+     - Retrieval Augmented Generation (RAG): A technique that combines the capabilities of a pre-trained large language model with an external data source. This approach combines the generative power of LLMs like GPT-3 or GPT-4 with the precision of specialized data search mechanisms, resulting in a system that can offer nuanced responses.
 
 ### What is an AI Tool?
 An AI tool is a software application that uses artificial intelligence algorithms to perform specific tasks and solve problems. AI tools can be used in a variety of industries, from healthcare and finance to marketing and education, to automate tasks, analyze data, and improve decision-making. AI tools work by using machine learning algorithms to analyze data and make decisions based on patterns and trends in the data. They can be used to automate tasks, analyze data, and make predictions based on patterns and trends, leading to increased efficiency and accuracy. Examples of AI tools include chatbots, recommendation systems, image recognition software, and predictive analytics platforms.
