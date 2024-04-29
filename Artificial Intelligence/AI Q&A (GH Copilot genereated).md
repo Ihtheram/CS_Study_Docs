@@ -1,9 +1,5 @@
 # Interview Questions for AI Enabled Engineering
 
-This is a new competency for us and with the curriculum being somewhat vague in what's required, most questions will fall into the "WHAT" category (i.e. "What is AI?", "What is Weak vs Strong AI", etc). Be prepared for the following questions, note that the list isn't exhaustive and you may be asked follow up questions depending on your answers, some of which may not appear on this list.
-
-## Questions
-
 ### What is Artificial Intelligence?
 Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can simulate human intelligence and perform tasks such as learning, reasoning, problem-solving, perception, and language understanding.
 Types of AI:
