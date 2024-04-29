@@ -5,7 +5,7 @@ This is a new competency for us and with the curriculum being somewhat vague in 
 ## Questions
 
 ### What is Artificial Intelligence?
-Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
+Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can simulate human intelligence and perform tasks such as learning, reasoning, problem-solving, perception, and language understanding.
 Types of AI:
   - Weak AI (Narrow AI): Designed to perform a specific task or a limited range of tasks.
   - Strong AI (Artificial General Intelligence): Hypothetical ability of a machine to perform any intellectual task that a human can do.
