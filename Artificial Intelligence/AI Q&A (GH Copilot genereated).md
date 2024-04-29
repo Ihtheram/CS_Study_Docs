@@ -6,43 +6,51 @@ This is a new competency for us and with the curriculum being somewhat vague in 
 
 ### What is Artificial Intelligence?
 Artificial Intelligence (AI) is a branch of computer science that aims to create intelligent machines that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
-  - #### What is Weak vs Strong AI?
-    Weak AI, also known as narrow AI, is designed to perform a specific task or a limited range of tasks. It is focused on a narrow domain and does not possess general intelligence or consciousness. Examples of weak AI include virtual assistants like Siri and Alexa.
-    Strong AI, also known as artificial general intelligence (AGI), is the hypothetical ability of a machine to perform any intellectual task that a human can do. It would possess general intelligence and consciousness, allowing it to learn and adapt to new situations, solve complex problems, and exhibit human-like cognitive abilities.
+Types of AI:
+  - Weak AI (Narrow AI): Designed to perform a specific task or a limited range of tasks.
+  - Strong AI (Artificial General Intelligence): Hypothetical ability of a machine to perform any intellectual task that a human can do.
+  - GenAI: AI systems capable of generating new content based on a given prompt or input.
+
+  - #### What is the difference between Weak and Strong AI?
+    Weak AI, also known as narrow AI, is designed to perform a specific task or a limited range of tasks. It is focused on a narrow domain and does not possess general intelligence or consciousness. Examples of weak AI include virtual assistants like Siri and Alexa, AI in Self-Driving Cars, and AI in recommendation systems such as Netflix, Amazon, Spotify, etc.
+    Strong AI, also known as artificial general intelligence (AGI), is the hypothetical ability of a machine to perform any intellectual task that a human can do. It would possess general intelligence and consciousness, allowing it to learn and adapt to new situations, solve complex problems, and exhibit human-like cognitive abilities. Strong AI is still a theoretical concept and has not been achieved yet. Examples of strong AI include sentient robots or AI systems that can pass the Turing Test.
   - #### What is GenAI?
-    GenAI is a term used to describe AI systems that are capable of generating new content, such as text, images, or music, based on a given prompt or input. These systems use generative models, such as GPT-3, to create original content that mimics human creativity.
+    GenAI is a term used to describe AI systems that are capable of generating new content, such as text, images, or music, based on a given prompt or input. These systems use generative models, such as GPT-3, to create original content that mimics human creativity. Examples of GenAI applications include text generation, image synthesis, and music composition.
   - #### How does GenAI differ from regular AI?
     GenAI differs from regular AI in that it is specifically designed to generate new content rather than perform predefined tasks or solve specific problems. Regular AI systems are typically focused on tasks like classification, prediction, or optimization, while GenAI systems are focused on creativity and content generation.
 
 ### What is Machine Learning?
-Machine Learning is a subset of artificial intelligence that focuses on developing algorithms and models that can learn from data and make predictions or decisions without being explicitly programmed. It involves training a model on a dataset to identify patterns and relationships in the data, which can then be used to make predictions on new, unseen data.
+Machine Learning is a subset of artificial intelligence that focuses on developing algorithms and models that can learn from data and make predictions or decisions without being explicitly programmed. It involves training a model on a dataset to identify patterns and relationships in the data, which can then be used to make predictions on new, unseen data. Types of Machine Learning:
+  - Supervised Learning (Regression, Classification)
+  - Unsupervised Learning (Clustering, Dimensionality Reduction)
+  - Reinforcement Learning (Reward-based learning)
   - #### What are the steps involved in Machine Learning?
     The steps involved in Machine Learning typically include:
-     1. Data Collection: Gathering and preparing a dataset for training the model.
-     2. Data Preprocessing: Cleaning, transforming, and preparing the data for training.
-     3. Model Selection: Choosing an appropriate machine learning algorithm or model for the task.
-     4. Model Training: Training the selected model on the dataset to learn patterns and relationships.
-     5. Model Evaluation: Assessing the performance of the trained model on a separate test dataset.
-     6. Model Deployment: Deploying the trained model to make predictions on new data.
+     1. Model Evaluation/ Decision Process: The algorithm will attempt to predict a value or classify a new example based off previous information
+     2. Model Monitoring/ Error Function: A way to measure how wrong the model is. Can vary based off the problem (classification/ predicition). The entire goal is to minimize error since that raises accuracy.
+     3. Model Updating / Optimization Process: A way for us to update the model based off the current weights held and the error function. The goal is to update the weights, which control how important specific input features are, and use that new model to hopefully achieve a lower error on the training and test sets. This is an interative approach and will repeat until a desired threshold for accuracy is acheived
+
+
   - #### What types of Machine Learning are there?
     There are three main types of Machine Learning:
-     1. Supervised Learning: In supervised learning, the model is trained on labeled data, where the input features are paired with the corresponding target labels. The model learns to map input features to output labels based on the training data.
-     2. Unsupervised Learning: In unsupervised learning, the model is trained on unlabeled data, where the input features do not have corresponding target labels. The model learns to identify patterns and relationships in the data without explicit guidance.
-     3. Reinforcement Learning: In reinforcement learning, the model learns through trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties. The model learns to take actions that maximize cumulative rewards over time.
+     1. Supervised Learning: In supervised learning, the model is trained on labeled data, where the input features are paired with the corresponding target labels. The model learns to map input features to output labels based on the training data. Examples of supervised learning tasks include regression and classification.
+     2. Unsupervised Learning: In unsupervised learning, the model is trained on unlabeled data, where the input features do not have corresponding target labels. The model learns to identify patterns and relationships in the data without explicit guidance. Examples of unsupervised learning tasks include clustering and dimensionality reduction.
+     3. Semi-supervised Learning: The combination or middle ground between Supervised and Unsupervised. This often starts with using the smaller, labelled dataset to guide initial model setup and then tests that model against the unlabelled dataset to uncover new connections or information about the data. Generally used as a cost-effective alternative if it costs too much to label data. Examples of semi-supervised learning tasks include image recognition and speech recognition.
+     4. Reinforcement Learning: In reinforcement learning, the model learns through trial and error by interacting with an environment and receiving feedback in the form of rewards or penalties. The model learns to take actions that maximize cumulative rewards over time. Examples of reinforcement learning tasks include game playing and robotic control.
   - #### What are some Machine Learning Algorithms?
     There are many machine learning algorithms, each designed to solve specific types of problems. Some common machine learning algorithms include:
-     - Linear Regression: A regression algorithm that models the relationship between input features and a continuous target variable.
-     - Logistic Regression: A classification algorithm that models the probability of an input belonging to a particular class.
-     - Decision Trees: A tree-based algorithm that partitions the input space into regions based on feature values.
-     - Support Vector Machines: A classification algorithm that finds the optimal hyperplane to separate classes in the input space.
-     - K-Nearest Neighbors: A lazy learning algorithm that classifies inputs based on the majority class of their k-nearest neighbors.
-     - Neural Networks: A deep learning algorithm that models complex relationships between input features and target variables using interconnected layers of neurons.
+     - Linear Regression: A regression algorithm that models the relationship between input features and a continuous target variable. Examples include predicting house prices based on features like square footage and location.
+     - Logistic Regression: A classification algorithm that models the probability of an input belonging to a particular class. Examples include predicting whether an email is spam or not based on its content.
+     - Decision Trees: A tree-based algorithm that partitions the input space into regions based on feature values. Decision trees are used for both classification and regression tasks. Examples include predicting customer churn based on demographic data.
+     - Neural Networks: A deep learning algorithm that models complex relationships between input features and target variables using interconnected layers of neurons. Neural networks are used for a wide range of tasks, including image recognition and natural language processing. Examples include image classification and sentiment analysis. 
+     - Clustering: Using unsupervised learning, clustering algorithms can identify patterns in data so that it can be grouped. Computers can help data scientists by identifying differences between data items that humans have overlooked. Examples include customer segmentation and anomaly detection.
+     - Random forests: In a random forest, the machine learning algorithm predicts a value or category by combining the results from a number of decision trees. This method is used for both classification and regression tasks. Examples include predicting customer churn and classifying diseases.
 
 ### What is an LLM?
-An LLM, or Large Language Model, is a type of artificial intelligence model that is trained on a large corpus of text data to generate human-like text. LLMs use deep learning techniques, such as transformer architectures, to learn the patterns and structures of natural language and generate coherent and contextually relevant text.
+An LLM, or Large Language Model, is a type of artificial intelligence model that is trained on a large corpus of text data to generate human-like text. LLMs use deep learning techniques, such as transformer architectures, to learn the patterns and structures of natural language and generate coherent and contextually relevant text. Examples of LLMs include GPT-3 (Generative Pre-trained Transformer 3) developed by OpenAI, which has been used for a wide range of natural language processing tasks, such as text generation, translation, and question answering.
 
 ### What is Prompt Engineering?
-Prompt engineering is the process of designing and refining prompts or inputs to AI models to elicit specific responses or behaviors. By carefully crafting prompts, engineers can guide AI models to generate desired outputs or avoid undesirable behaviors, such as bias or misinformation.
+Prompt engineering is the process of designing and refining prompts or inputs to AI models to elicit specific responses or behaviors. By carefully crafting prompts, engineers can guide AI models to generate desired outputs or avoid undesirable behaviors, such as bias or misinformation. Examples of prompt engineering include providing context, constraints, or examples to guide the behavior of the AI model.
   - #### What are some prompts that can be given?
     Prompts can vary depending on the task or objective of the AI model. Some examples of prompts include:
      - Text Generation: Providing a starting sentence or phrase to generate a coherent paragraph or story.
@@ -53,7 +61,7 @@ Prompt engineering is the process of designing and refining prompts or inputs to
     Prompt engineering is important to ensure that AI models produce accurate, relevant, and ethical outputs. By carefully designing prompts, engineers can guide the behavior of AI models and mitigate potential biases, errors, or unintended consequences in the generated content.
 
 ### What are hallucinations?
-Hallucinations are errors or inaccuracies in the output of AI models, where the generated content does not align with the intended task or context. Hallucinations can occur when AI models generate incorrect or misleading information based on the input data or prompt.
+Hallucinations are errors or inaccuracies in the output of AI models, where the generated content does not align with the intended task or context. Hallucinations can occur when AI models generate incorrect or misleading information based on the input data or prompt. Examples of hallucinations include generating nonsensical text, incorrect predictions, or biased outputs.
   - #### How can we prevent them?
     To prevent hallucinations, engineers can take several steps, including:
      - Data Cleaning: Ensuring that the training data is clean, relevant, and representative of the task.
@@ -62,7 +70,7 @@ Hallucinations are errors or inaccuracies in the output of AI models, where the 
      - Post-Processing: Applying filters or constraints to the generated output to remove hallucinations or errors.
 
 ### What is an AI Tool?
-An AI tool is a software application that uses artificial intelligence algorithms to perform specific tasks and solve problems. AI tools can be used in a variety of industries, from healthcare and finance to marketing and education, to automate tasks, analyze data, and improve decision-making. AI tools work by using machine learning algorithms to analyze data and make decisions based on patterns and trends in the data. They can be used to automate tasks, analyze data, and make predictions based on patterns and trends, leading to increased efficiency and accuracy.
+An AI tool is a software application that uses artificial intelligence algorithms to perform specific tasks and solve problems. AI tools can be used in a variety of industries, from healthcare and finance to marketing and education, to automate tasks, analyze data, and improve decision-making. AI tools work by using machine learning algorithms to analyze data and make decisions based on patterns and trends in the data. They can be used to automate tasks, analyze data, and make predictions based on patterns and trends, leading to increased efficiency and accuracy. Examples of AI tools include chatbots, recommendation systems, image recognition software, and predictive analytics platforms.
 
 ### What is GitHub Copilot?
 GitHub Copilot is an AI-powered code completion tool developed by GitHub and OpenAI. It is designed to assist developers in writing code by providing intelligent suggestions and autocompletions. Using advanced machine learning models, GitHub Copilot analyzes the context of your code and generates relevant suggestions for completing code snippets, functions, and even entire classes. It can save developers time and effort by automatically generating code that aligns with the desired functionality. GitHub Copilot supports a wide range of programming languages and frameworks, making it a versatile tool for developers across different domains. It can be integrated into popular code editors, such as Visual Studio Code, enabling a seamless coding experience. By leveraging the power of AI, GitHub Copilot aims to enhance developer productivity and reduce the cognitive load associated with writing code. It can be a valuable tool for both experienced developers looking to speed up their workflow and beginners seeking guidance and learning opportunities. To use GitHub Copilot, you can install the GitHub Copilot extension in your preferred code editor and enable it to provide code suggestions as you write.
