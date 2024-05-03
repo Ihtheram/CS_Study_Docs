@@ -3,7 +3,7 @@
 ## Title: Building a Full-Stack Website with Java, React, and Spring Boot
 
 
-Hi! My name is Ihtheram Chowdhury, and I'm excited to share my experience working on a full-stack website project with a team of four. Right now, I'll walk you through the architecture, technologies used, challenges faced, and future enhancements.
+Hi! My name is Ihtheram Chowdhury, and I'm excited to share my experience working on a full-stack website project. Right now, I'll walk you through the architecture, technologies used, challenges faced, and future enhancements.
 
 ---
 
