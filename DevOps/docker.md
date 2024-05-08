@@ -4,9 +4,9 @@ Docker is an open source platform for developing, shipping, and running applicat
 
 # Containerization
 
-Helps to ensure the application, or set of processes can run reliably regardless of the host environment. The container shouldn't be able to modify or interact with anything it doesn't need to and on the whole, changes in the container should not effect the host or other containers
+Helps to ensure the application, or set of processes can run reliably regardless of the host environment. The container shouldn't be able to modify or interact with anything it doesn't need to and on the whole, changes in the container should not affect the host or other containers
 
-Linux Containers are the foundation of most modern container systems
+Linux Containers are the foundation of the most modern container systems
 
 -   began with cgroups and namespaces
     -   cgroups allowed control over the resources
