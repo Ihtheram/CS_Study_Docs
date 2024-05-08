@@ -198,19 +198,18 @@ To add a container to a network use the command `docker run -d --net=bridge --na
 
 # Docker Best Practices
 
-The goals of containerization are:
+- The goals of containerization are:
+  - ephemeral containers: the containers should be as easy as possible to tear down and build up requiring minimal configuration
+  - lightweight containers and images
 
--   ephemeral containers: the containers should be as easy as possible to tear down and build up requiring minimal configuration
--   lightweight containers and images
+- Each container should only serve one purpose
 
-Be mindful of build context, aka what directory we are building in
+- Make commands in dockerfiles readible by separating them on different lines
 
-Try to leverage multi-stage builds and image cache
+- Be mindful of build context, aka what directory we are building in
 
-Each container should only serve one purpose
+- Try to leverage multi-stage builds and image cache
 
-Make commands in dockerfiles readible by separating them on different lines
+- Use volumes to persist data
 
-Use volumes to persist data
-
-Use secrets for sensitive data and config files for configurations that are not sensitive
+- Use secrets for sensitive data, and config files for configurations that are not sensitive
