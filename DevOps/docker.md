@@ -178,13 +178,13 @@ There are two ways to create a Docker container
 
 Some useful commands to manage containers include:
 
--   `docker container ls` displays all running containers
--   `docker ps -a` display all containers
--   `docker container kill containerID` can be used to stop a container
--   `docker container pause containerID` can pause the processes in the container
--   `docker container start containerID` can start the processes in the container
--   `docker container rm flags containerID` will remove a container
--   `docker volume rm volumename` will remove a volume
+- `docker ps -a` display all containers
+- `docker container ls` displays all running containers
+- `docker container start containerID` can start the processes in the container
+- `docker container pause containerID` can pause the processes in the container
+- `docker container kill containerID` can be used to stop a container
+- `docker container rm flags containerID` will remove a container
+- `docker volume rm volumename` will remove a volume
 
 There are more commands in this cheatsheet: https://dockerlabs.collabnix.com/docker/cheatsheet/
 
@@ -204,7 +204,7 @@ To add a container to a network use the command `docker run -d --net=bridge --na
 
 - Each container should only serve one purpose
 
-- Make commands in dockerfiles readible by separating them on different lines
+- Make commands in dockerfiles readable by separating them on different lines
 
 - Be mindful of build context, aka what directory we are building in
 
