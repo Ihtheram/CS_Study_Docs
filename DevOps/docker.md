@@ -158,33 +158,39 @@ For more information, view this cheat sheet: https://kapeli.com/cheat_sheets/Doc
 
 There are two ways to create an image:
 
--   Using the `docker build anyflags PATH` command in the CLI
-    -   This is how you can create an image with a dockerfile
--   Using `docker commit flags CONTAINER imagename` command in the CLI
-    -   You are commiting the changes from the container specified to the image specified
-    -   You are creating an image based off of an existing docker container
+`docker build anyflags PATH`
+ - to create an image with a dockerfile
+`docker commit flags CONTAINER imagename`
+ - to commit the changes from the container specified to the image specified, in this case, we are creating an image based off of an existing docker container.
 
 # Creating a container
 
 There are two ways to create a Docker container
 
--   Using `docker create imagename` in the CLI
-    -   this creates a container in its created state, and configures and sets it up to be run, including the writible layer on the image from which the container is created
--   Using `docker run flags imagename` in the CLI
-    -   This will pull the image from the registry if it doesn't exist locally
-    -   Create and run the container automatically
+`docker create imagename
+ - this creates a container in its created state, and configures and sets it up to be run, including the writible layer on the image from which the container is created
+`docker run flags imagename`
+ - This will pull the image from the registry if it doesn't exist locally
+ - Create and run the container automatically
 
 # Managing Containers:
 
 Some useful commands to manage containers include:
 
-- `docker ps -a` display all containers
-- `docker container ls` displays all running containers
-- `docker container start containerID` can start the processes in the container
-- `docker container pause containerID` can pause the processes in the container
-- `docker container kill containerID` can be used to stop a container
-- `docker container rm flags containerID` will remove a container
-- `docker volume rm volumename` will remove a volume
+`docker ps -a`
+ - display all containers
+`docker container ls`
+ - displays all running containers
+`docker container start containerID`
+ - can start the processes in the container
+`docker container pause containerID`
+ - can pause the processes in the container
+`docker container kill containerID`
+ - can be used to stop a container
+`docker container rm flags containerID`
+ - will remove a container
+`docker volume rm volumename`
+ - will remove a volume
 
 There are more commands in this cheatsheet: https://dockerlabs.collabnix.com/docker/cheatsheet/
 
@@ -194,7 +200,8 @@ One of the reasons Docker containers and services are so powerful is that you ca
 
 By default, Docker provides two network drivers for you, the `bridge` and the `overlay` drivers. You can also write a network driver plugin so that you can create your own drivers but that is an advanced task.
 
-To add a container to a network use the command `docker run -d --net=bridge --name nameofcontainer`
+To add a container to a network use the command
+ - `docker run -d --net=bridge --name nameofcontainer`
 
 # Docker Best Practices
 
