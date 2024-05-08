@@ -124,33 +124,26 @@ Define everything needed for an image. It outlines the starting point, dependenc
 
 # Dockerfile Keywords
 
-`FROM image name`
+#### `FROM image name`
+  * Specifies the parent image from which the new image should be based
 
--   Specifies the parent image from which the new image should be based
+#### `RUN <command> / RUN ["executable", "param"]`
+  * used to setup your image, the state of the image after each run command is committed forms a new layer
 
-`RUN <command> / RUN ["executable", "param"]`
+#### `ADD <src> <dest>`
+  * adds files from build context or url to image
 
--   used to setup your image, the state of the image after each run command is committed forms a new layer
+#### `COPY <src> <dest>`
+  * adds files from build context to image, now preferred over ADD
 
-`ADD <src> <dest>`
+#### `EXPOSE`
+  * outline ports that being listened on by processes in the container
 
--   adds files from build context or url to image
+#### `WORKDIR`
+  * set the working directory in the image and the eventual container of commands that follow
 
-`COPY <src> <dest>`
-
--   adds files from build context to image, now preferred over ADD
-
-`EXPOSE`
-
--   outline ports that being listened on by processes in the container
-
-`WORKDIR`
-
--   set the working directory in the image and the eventual container of commands that follow
-
-`CMD`
-
--   used to execute/run processes needed inside of your container
+#### `CMD`
+  * used to execute/run processes needed inside of your container
 
 For more information, view this cheat sheet: https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index
 
@@ -158,39 +151,45 @@ For more information, view this cheat sheet: https://kapeli.com/cheat_sheets/Doc
 
 There are two ways to create an image:
 
-`docker build anyflags PATH`
- - to create an image with a dockerfile
-`docker commit flags CONTAINER imagename`
- - to commit the changes from the container specified to the image specified, in this case, we are creating an image based off of an existing docker container.
+#### `docker build anyflags PATH`
+  * to create an image with a dockerfile
+#### `docker commit flags CONTAINER imagename`
+  * to commit the changes from the container specified to the image specified, in this case, we are creating an image based off of an existing docker container.
 
 # Creating a container
 
 There are two ways to create a Docker container
 
-`docker create imagename
- - this creates a container in its created state, and configures and sets it up to be run, including the writible layer on the image from which the container is created
-`docker run flags imagename`
- - This will pull the image from the registry if it doesn't exist locally
- - Create and run the container automatically
+#### `docker create imagename`
+  * this creates a container in its created state, and configures and sets it up to be run, including the writible layer on the image from which the container is created
+#### `docker run flags imagename`
+  * This will pull the image from the registry if it doesn't exist locally
+  * Create and run the container automatically
 
 # Managing Containers:
 
 Some useful commands to manage containers include:
 
-`docker ps -a`
- - display all containers
-`docker container ls`
- - displays all running containers
-`docker container start containerID`
- - can start the processes in the container
-`docker container pause containerID`
- - can pause the processes in the container
-`docker container kill containerID`
- - can be used to stop a container
-`docker container rm flags containerID`
- - will remove a container
-`docker volume rm volumename`
- - will remove a volume
+#### `docker ps -a`
+  * display all containers
+
+#### `docker container ls`
+  * displays all running containers
+
+#### `docker container start containerID`
+  * can start the processes in the container
+
+#### `docker container pause containerID`
+  * can pause the processes in the container
+    
+#### `docker container kill containerID`
+  * can be used to stop a container
+    
+#### `docker container rm flags containerID`
+  * will remove a container
+
+#### `docker volume rm volumename`
+  * will remove a volume
 
 There are more commands in this cheatsheet: https://dockerlabs.collabnix.com/docker/cheatsheet/
 
