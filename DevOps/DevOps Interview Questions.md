@@ -175,7 +175,7 @@ Security Groups act as virtual firewalls that control the inbound and outbound t
 
 - **Scalability**: Scalability refers to the ability of a system to handle an increasing workload by adding more resources, such as servers or storage, to meet the demand. It allows the system to maintain performance and handle higher traffic or workload without sacrificing performance.
 
-- **Elasticity**: Elasticity is a specific form of scalability that refers to the ability of a system to automatically provision and deprovision resources based on the current demand. It allows the system to dynamically scale up or down based on the workload, ensuring optimal resource utilization and cost efficiency.
+- **Elasticity**: Elasticity is a specific form of scalability that refers to the ability of a system to automatically provision and de-provision resources based on the current demand. It allows the system to dynamically scale up or down based on the workload, ensuring optimal resource utilization and cost efficiency.
 
 - **Resiliency**: Resiliency refers to the ability of a system to remain operational and recover quickly from failures or disruptions. It involves implementing redundancy, fault-tolerant designs, and disaster recovery mechanisms to minimize downtime and ensure business continuity.
 
@@ -290,10 +290,10 @@ The Dockerfile is a text file that contains instructions for building a Docker i
 Some other Docker commands include:
 - `docker pull`: Pulls an image from a container registry.
 - `docker push`: Pushes an image to a container registry.
-- `docker stop`: Stops a running container.
+- `docker logs`: Displays the logs of a container.
 - `docker start`: Starts a stopped container.
 - `docker exec`: Executes a command inside a running container.
-- `docker logs`: Displays the logs of a container.
+- `docker stop`: Stops a running container.
 - `docker rm`: Removes a container.
 - `docker rmi`: Removes an image.
 
