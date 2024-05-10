@@ -4,7 +4,7 @@
 
 ### What is version control?
 
-Version control is a system that allows you to track and manage changes to your code or project over time. It helps you keep a history of all modifications, collaborate with others, and easily revert back to previous versions if needed.
+Version control is a system that allows us to track and manage changes to our code or project over time. It helps us keep a history of all modifications, collaborate with others, and easily revert to previous versions if needed.
 
 ### List the git commands you know and what they do
 
@@ -19,11 +19,11 @@ Version control is a system that allows you to track and manage changes to your 
 
 ### How would you prevent a file from being tracked by git?
 
-To prevent a file from being tracked by Git, you can add its filename or pattern to a `.gitignore` file in the root directory of your repository. Git will then ignore any files or directories that match the patterns specified in the `.gitignore` file.
+To prevent a file from being tracked by Git, we can add its filename or pattern to a `.gitignore` file in the root directory of our repository. Git will then ignore any files or directories that match the patterns specified in the `.gitignore` file.
 
 ### What is a branch? What are some common branching strategies?
 
-A branch in Git is a separate line of development that allows you to work on new features or bug fixes without affecting the main codebase. It is like a parallel universe where you can make changes independently.
+A branch in Git is a separate line of development that allows us to work on new features or bug fixes without affecting the main codebase. It is like a parallel universe where we can make changes independently.
 
 Some common branching strategies include:
 - Feature Branching: Creating a new branch for each new feature or enhancement.
@@ -32,36 +32,36 @@ Some common branching strategies include:
 
 ### How to create a new branch?
 
-To create a new branch in Git, you can use the command `git branch branchname` followed by `git checkout branchname` to switch to the newly created branch. Alternatively, you can use the shortcut `git checkout -b branchname` to create and switch to the new branch in one step.
+To create a new branch in Git, we can use the command `git branch branchname` followed by `git checkout branchname` to switch to the newly created branch. Alternatively, we can use the shortcut `git checkout -b branchname` to create and switch to the new branch in one step.
 
-### What is a merge conflict? How do you prevent these and resolve if it happens?
+### What is a merge conflict? How do you prevent these and resolve them if they happen?
 
 A merge conflict occurs when Git is unable to automatically merge changes from different branches due to conflicting modifications in the same part of a file. It requires manual intervention to resolve the conflict.
 
-To prevent merge conflicts, it is important to communicate and coordinate with other developers, pull the latest changes before making your own modifications, and avoid making conflicting changes in the same files.
+To prevent merge conflicts, it is important to communicate and coordinate with other developers, pull the latest changes before making modifications, and avoid making conflicting changes in the same files.
 
-To resolve a merge conflict, you need to manually edit the conflicting files, choose which changes to keep, and then commit the resolved changes.
+To resolve a merge conflict, we need to manually edit the conflicting files, choose which changes to keep, and then commit the resolved changes.
 
 ### What is a GitHub pull request?
 
-A GitHub pull request is a feature that allows developers to propose changes to a repository. It is a way to notify others about your changes and initiate a discussion or review process. Pull requests provide a convenient way to collaborate and merge changes from one branch to another.
+A GitHub pull request is a feature that allows developers to propose changes to a repository. It is a way for a developer to notify others about changes and initiate a discussion or review process. Pull requests provide a convenient way to collaborate and merge changes from one branch to another.
 
 ### What is the git workflow for editing code and saving changes?
 
 The typical Git workflow for editing code and saving changes involves the following steps:
-1. Make changes to the code in your working directory.
-2. Use `git status` to see the modified files.
-3. Add the changes to the staging area using `git add`.
-4. Commit the changes to the local repository with a descriptive message using `git commit`.
-5. Push the committed changes to a remote repository using `git push`.
+1. Making changes to the code in the working directory.
+2. Using `git status` to see the modified files.
+3. Adding the changes to the staging area using `git add`.
+4. Committing the changes to the local repository with a descriptive message using `git commit`.
+5. Pushing the committed changes to a remote repository using `git push`.
 
 ### What is a commit?
 
-A commit in Git represents a snapshot of the changes made to a repository at a specific point in time. It is like a checkpoint that records the modifications to files and allows you to track the history of your project.
+A commit in Git represents a snapshot of the changes made to a repository at a specific point in time. It is like a checkpoint that records the modifications to files and allows us to track the history of our project.
 
-### How would you go back in your commit history if you make a mistake?
+### How would you go back in your commit history if you made a mistake?
 
-If you make a mistake and want to go back in your commit history, you can use the `git revert` or `git reset` command.
+If we make a mistake and want to return to our commit history, we can use the `git revert` or `git reset` command.
 
 - `git revert`: Creates a new commit that undoes the changes made in a previous commit. It keeps a record of the mistake in the commit history.
 - `git reset`: Moves the branch pointer to a previous commit, effectively removing the commits after that point. It discards the commits and their changes permanently.
@@ -77,7 +77,7 @@ Note: Be cautious when using `git reset` as it can modify the commit history and
 
 AWS, or Amazon Web Services, is a cloud computing platform that offers a wide range of services to help individuals and organizations build and deploy applications and services in a flexible and scalable manner. 
 
-"The cloud" refers to the delivery of computing resources, such as servers, storage, databases, networking, and software, over the internet. Cloud computing has gained popularity due to its numerous benefits, including cost savings, scalability, flexibility, and ease of use. It allows businesses to focus on their core competencies without the need to invest in and manage physical infrastructure.
+"The cloud" provides cloud computing services and "cloud computing" refers to the delivery of computing resources, such as servers, storage, databases, networking, and software, over the Internet. Cloud computing has gained popularity due to its numerous benefits, including cost savings, scalability, flexibility, and ease of use. It allows businesses to focus on their core competencies without the need to invest in and manage physical infrastructure.
 
 ### Define Infrastructure, Platform, and Software as a Service
 
@@ -97,40 +97,37 @@ An Availability Zone (AZ) is a data center within an AWS Region. Each AZ is phys
 
 AWS services are billed based on a pay-as-you-go model, where customers only pay for the resources they use. The pricing for each service varies and is based on factors such as the type and size of the resource, the region where it is deployed, and the duration of usage.
 
-AWS offers various pricing models, including on-demand pricing, reserved instances, and spot instances. On-demand pricing allows customers to pay for resources by the hour or by the second with no long-term commitments. Reserved instances provide a significant discount for customers who commit to using specific resources for a longer duration. Spot instances allow customers to bid on unused EC2 instances, offering potential cost savings.
+AWS offers various pricing models, including
+   - On-demand pricing allows customers to pay for resources by the hour or by the second with no long-term commitments.
+   - Reserved instances provide a significant discount for customers who commit to using specific resources for a longer duration.
+   - Spot instances allow customers to bid on unused EC2 instances, offering potential cost savings.
 
 ### Different ways to interact with AWS services?
 
 There are several ways to interact with AWS services:
 
-1. AWS Management Console: The AWS Management Console is a web-based interface that allows users to manage and configure AWS services through a graphical user interface (GUI). It provides a user-friendly way to access and control AWS resources without the need for programming.
+1. AWS Management Console: The AWS Management Console is a web-based interface that allows users to manage and configure AWS services through a graphical user interface (GUI) and access and control AWS resources without the need for programming.
 
 2. AWS Command Line Interface (CLI): The AWS CLI is a command-line tool that allows users to interact with AWS services using commands in a terminal or command prompt. It provides a powerful and scriptable interface for automating tasks and managing resources.
 
-3. AWS Software Development Kits (SDKs): AWS SDKs are available for various programming languages, including Java, Python, .NET, and more. They provide libraries and APIs that developers can use to integrate AWS services into their applications and manage resources programmatically.
-
-4. AWS CloudFormation: AWS CloudFormation is a service that allows users to define and provision AWS infrastructure as code. It uses templates written in JSON or YAML to describe the desired resources and their configurations. CloudFormation automates the provisioning and management of resources, making it easy to create and manage complex AWS environments.
-
-5. AWS Application Programming Interfaces (APIs): AWS provides a comprehensive set of APIs that developers can use to interact with AWS services programmatically. These APIs allow users to create, configure, and manage resources, as well as perform various operations and retrieve information from AWS services.
-
-These are just a few examples of the different ways to interact with AWS services. The choice of method depends on the specific requirements and preferences of the user or organization.
+3. AWS Software Development Kits (SDKs): AWS SDKs provide libraries and APIs for various programming languages, including Java, Python, .NET, and more, which developers can use to integrate AWS services into their applications and manage resources programmatically.
 
    
 ## EC2
 
 ### What are the configuration options for EC2?
 
-When configuring an EC2 instance, you have several options to consider:
+When configuring an EC2 instance, we have several options to consider:
 
-1. **Instance Type**: Choose the appropriate instance type based on your workload requirements, such as CPU, memory, storage, and networking capacity.
+1. **Instance Type**: Choosing the appropriate instance type based on the workload requirements, such as CPU, memory, storage, and networking capacity.
 
-2. **AMI**: Select an Amazon Machine Image (AMI) that contains the desired operating system and software configurations for your instance.
+2. **AMI**: Choosing an Amazon Machine Image (AMI) that contains the desired operating system and software configurations for our instance.
 
-3. **Storage**: Determine the storage options for your instance, including the root volume and any additional volumes or EBS (Elastic Block Store) volumes.
+3. **Storage**: Determining the storage options for our instance, including the root volume and any additional volumes or EBS (Elastic Block Store) volumes.
 
-4. **Networking**: Configure the networking settings for your instance, including VPC (Virtual Private Cloud) settings, security groups, and IP addressing.
+4. **Networking**: Configuring the networking settings for our instance, including VPC (Virtual Private Cloud) settings, security groups, and IP addressing.
 
-5. **Security**: Set up security measures for your instance, such as SSH key pairs, security groups, and IAM (Identity and Access Management) roles.
+5. **Security**: Setting up security measures for our instance, such as SSH key pairs, security groups, and IAM (Identity and Access Management) roles.
 
 ### What are the different EC2 instance sizes/types?
 
