@@ -257,6 +257,8 @@ S3 offers different storage tiers to optimize cost and performance based on your
 
 Yes, you can use S3 to host the front-end of a static website or a single-page application (SPA). S3 can serve HTML, CSS, JavaScript, and other static assets directly to web browsers. However, for hosting the back-end of an application, you would typically use other AWS services such as EC2, ECS, or Lambda depending on your application's requirements.
 
+## DOcker
+
 ### What is a container? How is it different from a VM?
 
 A container is a runnable instance of a set of processes and their dependencies. It provides isolation for applications and allows them to run reliably regardless of the host environment. Containers share the underlying OS kernel, making them lightweight compared to virtual machines (VMs) which virtualize an entire OS.
@@ -317,15 +319,8 @@ DevOps is a set of practices that combines software development (Dev) and IT ope
 
 ### Explain CI/CD. What is the difference between Continuous Deployment and Continuous Delivery?
 
-CI/CD stands for Continuous Integration and Continuous Delivery/Deployment. Continuous Integration is the practice of frequently merging code changes into a shared repository and running automated tests to detect integration issues early. Continuous Delivery is the ability to release software to production at any time, while Continuous Deployment is the practice of automatically deploying every code change to production.
-
-### What is SonarQube / SonarCloud? Explain some of the features of itContinuous Integration (CI) is the practice of frequently merging code changes from multiple developers into a shared repository. It involves automatically building and testing the code to detect integration issues early on.
-
-Continuous Delivery (CD) is the process of continuously delivering software to a production-like environment, where it can be tested and validated. This includes automating the deployment process and ensuring that the software is always in a releasable state.
-
-Continuous Deployment (CD) goes a step further by automatically deploying the software to production after passing all necessary tests and validations. With continuous deployment, there is no manual intervention required for deploying to production.
-
-The main difference between Continuous Deployment and Continuous Delivery is that Continuous Delivery focuses on making the software ready for deployment at any time, while Continuous Deployment actually deploys the software to production automatically.
+ - CI/CD stands for Continuous Integration and Continuous Delivery/Deployment. Continuous Integration is the practice of frequently merging code changes into a shared repository and running automated tests to detect integration issues early.
+ - Continuous Delivery is the ability to release software to production at any time, while Continuous Deployment is the practice of automatically deploying every code change to production.
 
 ### What tools have you used to achieve CI/CD? Explain how you’ve set up and used them.
 
