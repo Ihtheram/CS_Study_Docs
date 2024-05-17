@@ -85,3 +85,38 @@ Pronounced as 'array-deck', this concrete class can be implemented for either th
 
 # Collections Class
 The [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) class - not to be confused with the Collection interface - defines many `static` helper methods which operate on any given collection. Use this class for help with sorting, searching, reversing, or performing other operations on collections.
+
+
+
+## Java			
+### What is the difference between JDK, JVM, & JRE?			
+### What is the JIT compiler?			
+### What is Java Memory ? Describe Stack and Heap.			
+### What is OOP? Elaborate on the four pillars			
+### What are Wrapper classes?			
+### Describe abstraction and polymorphism?			
+### "Java basics, access modifiers, threads/runnable, functional interfaces"			
+### What is a class and object			
+### What is the role of a constructor?			
+### abstract classes vs. interfaces			
+### Can you implement multiple interfaces in Java? can you extend multiple classes?			
+### What does the static keyword do?			
+### What does default do in an interface method?			
+### What are the different scopes in java?			
+### Tell me about access and non-access modifiers?			
+### Tell me about the different kinds of exceptions. What are some examples of checked and unchecked exceptions? (AKA compile-time run-time)			
+### How do you handle exceptions?			
+### How do exceptions and errors differ?			
+### How to compare (equate) 2 objects in java?			
+### Overloading vs Overriding?			
+### Explain each of the part of public static void main(String[] args){}			
+### What happens if I don’t make the main method static?			
+### Difference between final and finally?			
+### What is a singleton?			
+### What is the garbage collector? Can you force garbage collection?			
+### What is unit testing? How do we do it in Java?			
+### Describe the Collections API (List, Set, Queue, how they differ from arrays)			
+### Array vs ArrayList?			
+### How can I remove duplicate elements from a List? (tricky one with multiple solutions, but I'd just say convert the List into a Set)			
+### HashTable vs HashMap?			
+### What is an Optional?			
