@@ -9,7 +9,16 @@ ALSO - don't assume this is all they can ask you. Please study up on the entire 
 ### Tell me about yourself (VERY common - you should have a 2-3 sentence answer ready for this. (Where did you graduate? What did you study? What work have you done til now?)	
 My name is Ihtheram Chowdhury, I am graduated with a Bachelor of Science Degree in Computer Science and Engineering. During the undergraduate years I have studied different aspects of software, hardware, telecommunication, neworking, web programming, AI, and learned programming languages and some libraries of C, Java, Python, also learned SQL Database, git commands etc. After graduation, I worked as a substitute employee in Paterson Public Schools and also at the same time I was applying for IT jobs through LinkedIn Job postings through which I ended up getting a job offer from Revature where I am currently working. At Revature, after I trained for few months, started working on projects using technologies like Java, Spring Boot, React etc.
 
-### How do you handle team conflict?			
+### How do you handle team conflict?
+Handling team conflict effectively involves several key steps:
+
+ 1. Acknowledge that there is a disagreement that needs to be addressed. approach the conflict with a positive mindset to identify the root causes of the conflict.
+ 2. Ensure that team members feel safe to express their thoughts and feelings and encourage all parties to speak openly and listen to each other without interrupting.
+ 3. Collaborate to find solutions that are acceptable to all parties involved and take steps to implement the agreed-upon solutions.
+ 8. Check in with the team after implementing the solutions to ensure the conflict has been resolved and to prevent future issues.
+
+It’s important to approach conflict with a positive mindset, seeing it as an opportunity for growth and improvement rather than a setback. Effective communication, empathy, and a willingness to compromise are crucial in resolving team conflicts. Remember, the goal is to strengthen the team and improve collaboration, not to win an argument.
+			
 
 ### Do you see yourself as leader of a team? (there's no wrong answer to this besides something like "yes I'm better than everyone" or "no I hate people")			
 I have never got the chance to lead a team. But if I ever get a chance to lead, I would lead with perseverance, 
