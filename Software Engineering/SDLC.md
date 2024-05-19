@@ -133,3 +133,36 @@ Sprint Retrospective:
 -   Scrum master reviews the metric, and assess any ineffiencies
 -   Plan to make improvemtents as a team
 
+
+### What Agile processes have you used?			
+### What is retrospective in Agile?			
+### What AWS services have you used?			
+### How do you host projects on AWS?			
+### Briefly describe Iaas, Paas, Saas and describe one of them more in-depth.
+
+# Cloud/SDLC			
+### What Agile processes have you used?
+
+I have used an Agile process which is Kanban.
+
+### What is retrospective in Agile?
+
+Retrospective in Agile is a meeting held at the end of each sprint or iteration where the team reflects on what went well, what could be improved, and what actions can be taken to enhance the team's performance in the future.
+
+### What AWS services have you used?
+
+I have used a wide range of AWS services including EC2 (Elastic Compute Cloud), S3 (Simple Storage Service), RDS (Relational Database Service), Lambda, and CloudFormation, among others.
+
+### How do you host projects on AWS?
+
+To host projects on AWS, you can use services like EC2 for virtual machine instances, S3 for static file hosting, and Elastic Beanstalk for deploying and managing applications. You can also use AWS Lambda for serverless computing and AWS Elastic Beanstalk for platform-as-a-service (PaaS) hosting.
+
+### Briefly describe IaaS, PaaS, SaaS and describe one of them more in-depth.
+
+IaaS (Infrastructure-as-a-Service) provides virtualized computing resources such as virtual machines, storage, and networking infrastructure. It allows users to manage and control the underlying infrastructure while focusing on their applications.
+
+PaaS (Platform-as-a-Service) provides a platform for developing, testing, and deploying applications without the need to manage the underlying infrastructure. It offers a higher level of abstraction and automates many aspects of application deployment and management.
+
+SaaS (Software-as-a-Service) delivers software applications over the internet on a subscription basis. Users can access and use the software without the need for installation or maintenance.
+
+One example of a PaaS service is AWS Elastic Beanstalk. It simplifies the deployment and management of applications by providing a platform that automatically handles the underlying infrastructure, including capacity provisioning, load balancing, and automatic scaling.
