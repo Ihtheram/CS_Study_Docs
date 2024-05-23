@@ -495,7 +495,6 @@ ________________________________________________________________________________
 ## Soft Skill
 How do you fight for an idea you have over someone else’s idea?
 
-
 ## Software Development
 What are the SDLC Phases?
 What are the difference between Waterfall and Agile?
