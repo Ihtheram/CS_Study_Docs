@@ -214,6 +214,14 @@ Overriding is the process of providing a different implementation for a method i
 
 - `String[] args`: It is the parameter of the main method, which allows command-line arguments to be passed to the program.
 
+
+
+
+
+
+
+
+
 ### What happens if I don’t make the main method static?			
 If the main method is not declared as `static`, the Java program will compile successfully but will throw a runtime error when executed. The main method must be declared as `static` because it is called by the JVM before any objects are created.
 
@@ -254,5 +262,5 @@ An ArrayList is a dynamic data structure that can store elements of the same typ
 ### How can I remove duplicate elements from a List? (tricky one with multiple solutions, but I'd just say convert the List into a Set)			
 One way to remove duplicate elements from a List is to convert the List into a Set. Since a Set does not allow duplicate elements, converting the List into a Set will automatically remove the duplicates.
 
-Here's an example:
+
 
