@@ -166,3 +166,31 @@ PaaS (Platform-as-a-Service) provides a platform for developing, testing, and de
 SaaS (Software-as-a-Service) delivers software applications over the internet on a subscription basis. Users can access and use the software without the need for installation or maintenance.
 
 One example of a PaaS service is AWS Elastic Beanstalk. It simplifies the deployment and management of applications by providing a platform that automatically handles the underlying infrastructure, including capacity provisioning, load balancing, and automatic scaling.
+
+
+## Story telling Techniques
+
+### STAR
+The STAR technique is a structured approach to storytelling, particularly useful in interviews and professional settings. It stands for:
+
+**Situation**: Describe the context within which you performed a task or faced a challenge at work.
+
+**Task**: Explain the actual task or challenge that was involved.
+
+**Action**: Detail the specific actions you took to address the task or challenge.
+
+**Result**: Share the outcomes or results of your actions.
+
+Here’s how you can apply the STAR technique:
+
+**Situation**: Set the scene and give the necessary details of your example.
+
+**Task**: Describe what your responsibility was in that situation.
+
+**Action**: Explain the steps you took to address the task.
+
+**Result**: Conclude with the outcome of your actions.
+
+This method helps you create structured, concise, and engaging responses that demonstrate your skills and abilities effectively123. It’s particularly helpful when answering behavioral interview questions that begin with prompts like “Tell me about a time when…” or “Give me an example of a time when you…”.
+
+The STAR method ensures that your story has a clear flow and that it highlights your contributions and achievements. It’s a great way to illustrate your problem-solving skills, leadership qualities, teamwork, and other relevant competencies in a memorable and impactful way. 🌟

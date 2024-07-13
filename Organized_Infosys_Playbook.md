@@ -3,7 +3,7 @@
 ## Soft Skills/Non Technical			
 
 ### Tell me about yourself (VERY common - you should have a 2-3 sentence answer ready for this. (Where did you graduate? What did you study? What work have you done til now?)	
-My name is Ihtheram Chowdhury, I am graduated with a Bachelor of Science Degree in Computer Science and Engineering. During the undergraduate years I have studied different aspects of software, hardware, telecommunication, neworking, web programming, AI, and learned programming languages and some libraries of Java, Python, C also learned SQL Database, git commands etc. After graduation, I worked as a substitute employee in Paterson Public Schools and also at the same time I was applying for IT jobs through LinkedIn Job postings through which I ended up getting a job offer from Revature where I am currently working. At Revature, after I trained for few months, started working on projects using technologies like Java, Spring Boot, React etc.
+My name is Ihtheram Chowdhury, I am graduated with a Bachelor of Science Degree in Computer Science and Engineering. During the undergraduate years I have studied different aspects of software, hardware, telecommunication, neworking, web programming, AI, and learned programming languages and some libraries of Java, Python, C also learned SQL Database, and version control with git and github etc. After graduation, I started working at Revature where I am currently working right now, after I trained for few months, started participating on projects using technologies like Java, Spring Boot, React etc.
 
 ### How do you handle team conflict?
 Handling team conflict effectively involves several key steps:

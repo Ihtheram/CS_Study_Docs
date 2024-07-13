@@ -123,3 +123,9 @@ We can solve the Producer-Consumer problem by using `wait()` & `notify()`methods
 Producer thread will keep on producing data for Consumer to consume. It will use `wait()` method when Queue is full and use `notify()` method to send notification to Consumer thread once data is added to the queue.
 
 Consumer thread will consume the data form the queue. It will also use `wait()` method to wait if queue is empty. It will also use `notify()` method to send notification to producer thread after consuming data from the queue.
+
+
+
+## Scheduler, 
+## Lock
+## Executer Framework
