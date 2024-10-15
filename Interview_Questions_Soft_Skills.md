@@ -28,12 +28,12 @@ EAGERNESS CHECK _________________________________________
 “Absolutely! I am always eager to expand my skill set and knowledge base. Learning new programming languages not only allows me to stay current with industry trends but also enhances my problem-solving abilities by understanding different approaches to coding. I’m looking forward to the opportunity to learn and grow in this area.”
 
 ### What makes you excited or passionate about software development?
- - It's fun to solve complex problems with coding and make programs work
- - I can turn my own concept into reality
- - We keep learning and keep improving developing skills
- - Doesnt get boring because we keep building new things
- - What I can build may help lots of people which makes me feel great.
- - Working with others and achieve something with team is also satisfying.
+ - It's fun to solve complex problems with coding and **make programs work**
+ - I can turn **my own concept** into reality.
+ - We **keep learning & improving** our development skills.
+ - Doesn't get boring because we **keep developing new things, implement new technologies, use better approaches.**
+ - The software I participate in developing may **help many people** which feels great.
+ - **Working with others** and achieve something with team is also satisfying.
 
 TEAMWORK RELATED ___________________________________________
 
