@@ -3,8 +3,9 @@
 
 
 ## Tell me about yourself (VERY common - you should have a 2-3 sentence answer ready for this. (Where did you graduate? What did you study? What work have you done til now?)	
-My name is Ihtheram Chowdhury, I am graduated with a Bachelor of Science Degree in Computer Science and Engineering. During the undergraduate years I have studied different aspects of software, hardware, telecommunication, neworking, web programming, AI, and learned programming languages and some libraries of Java, Python, C also learned SQL Database, and version control with git and github etc. After graduation, I started working at Revature where I am currently working right now, after I trained for few months, started participating on projects using technologies like Java, Spring Boot, React etc.
-
+My name is Ihtheram Chowdhury, I am graduated with a Bachelor of Science Degree in Computer Science and Engineering. 
+The most recent job was at Revature working as a Full Stack Software Developer, where I participated on software development projects implementing technologies such as Java, Spring Boot, React, TypeScript, PostgreSQL using development tools like IntelliJ, VS Code, DBeaver, Postman, Git, GitHub, Trello etc.
+During the undergraduate years I have studied different aspects of software, hardware, telecommunication, neworking, web programming, AI, and learned programming languages and some libraries of Java, Python, C also learned SQL Database, and version control with git and github etc.
 ## What is your background with IT?
 
 ## Are you currently working?
