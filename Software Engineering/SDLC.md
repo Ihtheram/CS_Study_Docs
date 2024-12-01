@@ -83,7 +83,7 @@ Scrum is the simplest Agile framework, it enforces ceremonies lead by a lead who
 -   Product Owner: holds authority over project, a representative of the client/customer
 -   Scrum Master: the person who mediates all the meetings, and goes between client and team
 -   Project Backlog: holds all the current requirements for the project
--   Sprint Backlog: requires that are to be completed in the current sprint
+-   Sprint Backlog: requirements that are to be completed in the current sprint
 -   User Story: an individual feature/requirement
 -   Epic: a group of related features that is broken down into multiple user stories
 -   Sprint: a brief period of development, (between 2 and 4 weeks). which generally cumulates in a release of realated features
@@ -91,7 +91,7 @@ Scrum is the simplest Agile framework, it enforces ceremonies lead by a lead who
 
 ## Story Pointing
 
-Story pointing allows teams to keep track of the progress (velocity) of their sprint/project, and create burndown charts
+Story pointing is the process of assigning points to each user story or requirements. a user story allows teams to keep track of the progress (velocity) of their sprint/project, and create burndown charts
 
 Burndown Charts: chart the amount of story points that been completed each day, vs the number of points remaining
 
