@@ -1,7 +1,7 @@
 # Spring
 
 ## Spring Bean
-* According to the Spring Framework documentation, a bean is an object that forms the backbone of a spring application and is managed by the Spring IoC (Inversion of Control) container1.
+* A bean is an object that forms the backbone of a spring application and is managed by the Spring IoC (Inversion of Control) container1.
 * The IoC container handles the instantiation, assembly, and management of these beans.
 * In simpler terms, a _bean_ is an _object_ that the Spring framework manages automatically.
 
