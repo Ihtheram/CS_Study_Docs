@@ -91,22 +91,22 @@ The [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collection
 ## CRUD (Create, Read/Retrieve, Update, Delete) operations for different data structures in Java:
 
 1. **List (ArrayList):**
-    - `add()` 
+    - `add(value)` 
     - `get(index)` 
     - `set(index, value)`
     - `remove(index)` or `remove(object)`
 
 2. **Queue (LinkedList or PriorityQueue):**
-    - `add()` or `offer()` adds elements to the queue.
+    - `offer(value)` or `add(value)` adds elements to the queue.
     - `poll()` retrieves and removes the head element.
-    - Queues are typically FIFO, so, updating elements isn't common.
+    - updating isn't common due to being FIFO. 
     - `remove()` Same as poll().
 
 3. **Set (HashSet or TreeSet):**
-    - `add()` to insert unique elements into the set.
-    - `contains()` checks if an element exists, Sets don't have direct access by index.
+    - `add(value)` to insert unique elements into the set.
+    - `contains(value)` checks if an element exists, Sets don't have direct access by index.
     - Since sets enforce uniqueness, updating is not straightforward.
-    - `remove()`
+    - `remove(value)`
 
 4. **Map (HashMap or TreeMap):**
     - `put(key, value)` to add key-value pairs.
