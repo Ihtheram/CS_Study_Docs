@@ -187,7 +187,7 @@ Here’s how you can apply the STAR technique:
 
 **Task**: Describe what your responsibility was in that situation.
 
-**Action**: Explain the steps you took to address the task.
+**Action**: Explain the steps you took to address the task. 
 
 **Result**: Conclude with the outcome of your actions.
 
