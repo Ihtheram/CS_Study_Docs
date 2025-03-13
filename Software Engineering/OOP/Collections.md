@@ -98,9 +98,9 @@ The [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collection
 
 2. **Queue (LinkedList or PriorityQueue):**
     - `offer(value)` or `add(value)` adds elements to the queue.
-    - `poll()` retrieves and removes the head element.
+    - `peek()` to check the value of the head element.
     - updating isn't common due to being FIFO. 
-    - `remove()` Same as poll().
+    - `poll()` or `remove()` retrieves and removes the head element.
 
 3. **Set (HashSet or TreeSet):**
     - `add(value)` to insert unique elements into the set.
