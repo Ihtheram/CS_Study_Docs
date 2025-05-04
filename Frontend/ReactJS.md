@@ -93,17 +93,17 @@ React provides the flexibility to use either Javascript or Typescript to build c
 
 We will be using Typescript to develop our react application
 
-You can either create a react app with the typescript template, or install the typescript module for react
+- You can either create a react app with the typescript template, or install the typescript module for react
 
-`npx create-react-app name-of-app --template typescript`
+  `npx create-react-app name-of-app --template typescript`
 
-Or to convert an existing application:
+- Or to convert an existing application:
 
-`npm i --save typescript @types/node @types/react @types/react-dom @types/jest`
+  `npm i --save typescript @types/node @types/react @types/react-dom @types/jest`
 
-Then create the tsconfig
+  Then create the tsconfig
 
-`npx tsc --init`
+    `npx tsc --init`
 
 Then finish up with setting the applications configs however you like
 
