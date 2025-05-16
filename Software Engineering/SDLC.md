@@ -1,16 +1,25 @@
 # SDLC (Software Development Lifecycle):
 
-Outlines the process to plan, create, test, and deploy information systems and appliations
+The Software Development Life Cycle (SDLC) encompasses all the phases involved in creating and maintaining software.
 
-## SDLC Follows these 7 general steps:
+## SDLC Phases
+SDLC Follows these 7 general steps: Planning, Analysis, Design, Development, Testing, Integration, Deployment, Maintenance.
 
-1. Requirements Phase
-2. Analysis Phase
-3. Design Phase
-4. Development Phase
-5. Testing Phase
-6. Integration and Deployment Phase
-7. Maintenance Phase
+Here’s a comprehensive list of all possible phases:
+
+1. **Planning**: Define the project's scope, objectives, and feasibility.
+2. **Requirement Gathering and Analysis**: Collect and analyze user and stakeholder requirements.
+3. **Feasibility Study**: Assess the technical, operational, and financial feasibility of the project.
+4. **System Design**: Create the architecture and design of the software system.
+5. **Development**: Write the code and build the software.
+6. **Testing**: Verify that the software meets requirements and is free of defects.
+7. **Integration**: Combine different modules or systems and ensure they work together.
+8. **Deployment**: Release the software to the production environment or end-users.
+9. **Operations**: Monitor the software in its live environment to ensure smooth functioning.
+10. **Maintenance**: Update, improve, and fix issues in the software post-deployment.
+11. **Retirement**: Decommission the software when it is no longer needed or viable.
+
+These phases may vary slightly depending on the methodology (e.g., Agile, Waterfall) or the specific project requirements, but this list captures all the potential stages. Let me know if you'd like to explore any of these in detail!
 
 There are are two main approaches to SDLC currently:
 
@@ -78,10 +87,13 @@ Disadavantanges of Agile:
 
 Scrum is the simplest Agile framework, it enforces ceremonies lead by a lead who ensures the team is following Scrum practices
 
-## Scrum Artifacts
+## Key Roles
 
 -   Product Owner: holds authority over project, a representative of the client/customer
 -   Scrum Master: the person who mediates all the meetings, and goes between client and team
+
+## Scrum Artifacts
+
 -   Project Backlog: holds all the current requirements for the project
 -   Sprint Backlog: requirements that are to be completed in the current sprint
 -   User Story: an individual feature/requirement
@@ -140,14 +152,17 @@ Sprint Retrospective:
 ### How do you host projects on AWS?			
 ### Briefly describe Iaas, Paas, Saas and describe one of them more in-depth.
 
-# Cloud/SDLC			
+# SDLC
+
 ### What Agile processes have you used?
 
-I have used an Agile process which is Kanban.
+I have used an Agile processes which are Scrum and Kanban.
 
 ### What is retrospective in Agile?
 
 Retrospective in Agile is a meeting held at the end of each sprint or iteration where the team reflects on what went well, what could be improved, and what actions can be taken to enhance the team's performance in the future.
+
+# Cloud
 
 ### What AWS services have you used?
 
@@ -167,30 +182,3 @@ SaaS (Software-as-a-Service) delivers software applications over the internet on
 
 One example of a PaaS service is AWS Elastic Beanstalk. It simplifies the deployment and management of applications by providing a platform that automatically handles the underlying infrastructure, including capacity provisioning, load balancing, and automatic scaling.
 
-
-## Story telling Techniques
-
-### STAR
-The STAR technique is a structured approach to storytelling, particularly useful in interviews and professional settings. It stands for:
-
-**Situation**: Describe the context within which you performed a task or faced a challenge at work.
-
-**Task**: Explain the actual task or challenge that was involved.
-
-**Action**: Detail the specific actions you took to address the task or challenge.
-
-**Result**: Share the outcomes or results of your actions.
-
-Here’s how you can apply the STAR technique:
-
-**Situation**: Set the scene and give the necessary details of your example.
-
-**Task**: Describe what your responsibility was in that situation.
-
-**Action**: Explain the steps you took to address the task. 
-
-**Result**: Conclude with the outcome of your actions.
-
-This method helps you create structured, concise, and engaging responses that demonstrate your skills and abilities effectively123. It’s particularly helpful when answering behavioral interview questions that begin with prompts like “Tell me about a time when…” or “Give me an example of a time when you…”.
-
-The STAR method ensures that your story has a clear flow and that it highlights your contributions and achievements. It’s a great way to illustrate your problem-solving skills, leadership qualities, teamwork, and other relevant competencies in a memorable and impactful way. 🌟
